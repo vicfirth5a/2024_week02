@@ -28,6 +28,7 @@ body {
 .header a {
   text-decoration: none;
   color: #fff;
+  font-size: 16px;
 }
 .header a:hover {
   color: #00ffa3;
@@ -75,12 +76,13 @@ body {
   text-decoration: none;
   width: fit-content;
   margin-left: auto;
+  font-size: 16px;
 }
 .section-cover .txt a:hover {
   opacity: 0.5;
 }
 .section-cover .txt a img {
-  vertical-align: middle;
+  vertical-align: bottom;
 }
 .section-introduction {
   background: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/background-img.png?raw=true)
