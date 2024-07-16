@@ -1,0 +1,245 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1296px;
+  margin: auto;
+}
+img {
+  vertical-align: top;
+}
+body {
+  font-family: "Bruno Ace SC", sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.section-header {
+  height: 100vh;
+  background-color: #000;
+}
+
+.header,
+.section-cover {
+  background-color: #000;
+}
+.header a {
+  text-decoration: none;
+  color: #fff;
+}
+.header a:hover {
+  color: #00ffa3;
+}
+.header nav {
+  padding: 40px 0;
+}
+.header ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-cover .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+}
+.section-cover .pic {
+  max-width: 636px;
+}
+.section-cover .pic img {
+  width: 100%;
+}
+.section-cover .txt {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.section-cover .txt p {
+  color: #fff;
+  font-size: 64px;
+}
+.section-cover .txt h1 {
+  font-size: 128px;
+  text-align: right;
+  color: #00ffa3;
+}
+.section-cover .txt a {
+  background-color: #d9d9d9;
+  padding: 12px 24px;
+  border-radius: 32px;
+  color: #000;
+  text-decoration: none;
+  width: fit-content;
+  margin-left: auto;
+}
+.section-cover .txt a:hover {
+  opacity: 0.5;
+}
+.section-cover .txt a img {
+  vertical-align: middle;
+}
+.section-introduction {
+  background: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/background-img.png?raw=true)
+    center / cover;
+  padding: 160px 0;
+}
+.section-introduction .container {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+.section-introduction .txt {
+  max-width: 526px;
+}
+.section-introduction h2 {
+  font-size: 64px;
+  color: #fff;
+  margin-bottom: 36px;
+}
+.section-introduction p {
+  font-size: 24px;
+  color: #fff;
+  margin-bottom: 32px;
+}
+.section-introduction .pic {
+  display: flex;
+  gap: 24px;
+}
+.section-introduction .txt .sparkle {
+  display: flex;
+  gap: 16px;
+}
+
+.section-about {
+  padding: 160px 0;
+}
+.section-about .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.section-about .feature-list {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 636px;
+  gap: 24px;
+}
+.section-about .feature-item {
+  max-width: 306px;
+  border: 1px solid #e3e3e3;
+  padding: 16px;
+}
+/* .feature-item p:first-child,
+.feature-item h3 {
+  font-size: 20px;
+} */
+.feature-item p:last-child {
+  font-size: 16px;
+}
+.section-about .about {
+  max-width: 526px;
+}
+.section-about .about h2 {
+  font-size: 64px;
+  margin-bottom: 36px;
+}
+.section-about p {
+  font-size: 24px;
+}
+
+.section-contact {
+  background: linear-gradient(to bottom, #050014 100%, #01021e 89%);
+}
+.section-contact .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 96px 0;
+}
+.section-contact h2 {
+  font-size: 64px;
+  color: #fff;
+}
+.section-contact .main-title {
+  display: flex;
+  width: 657px;
+  gap: 16px;
+}
+.section-contact .main-title .pic {
+  width: 100px;
+}
+.section-contact .main-title .pic img {
+  width: 100%;
+}
+.section-contact .socialmedia {
+  display: flex;
+  gap: 20px;
+}
+.section-contact .socialmedia a:hover {
+  filter: brightness(0.5);
+}
+
+.section-projects {
+  padding: 160px 0;
+}
+.section-projects h2 {
+  font-size: 64px;
+  width: 746px;
+  margin-left: auto;
+  margin-bottom: 16px;
+}
+.section-projects .main-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+.section-projects .main-content > .pic {
+  width: 416px;
+}
+.section-projects .main-content .caption {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  margin-bottom: 28px;
+}
+.section-projects .main-content .caption .txt {
+  width: 636px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+}
+.section-projects .main-content .caption p {
+  font-size: 16px;
+}
+.section-projects .main-content .caption .txt a {
+  text-decoration: none;
+  background-color: #000;
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 32px;
+  font-size: 16px;
+}
+.section-projects a:hover {
+  opacity: 0.5;
+}
+.section-projects .main-content .caption .txt img {
+  vertical-align: middle;
+}
+.section-projects .main-content .figures {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.section-footer {
+  background-color: #000;
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+  padding: 40px 0;
+}
